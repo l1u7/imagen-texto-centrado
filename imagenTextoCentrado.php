@@ -157,9 +157,7 @@ class imagenTextoCentrado {
             throw new Exception("La \"imagen\" aun no ha sido preparada. por esta razón no puede ser guardad");
         }
 
-        header('Content-Type: image/png');
-        imagepng($this->imagen);
-        ## imagepng($this->imagen, $ruta);
+        imagepng($this->imagen, $ruta);
         imagedestroy($this->imagen);
     } 
 }
