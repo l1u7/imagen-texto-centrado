@@ -11,4 +11,4 @@ $imagen->setTextoColor([55, 230, 99]);
 $imagen->setBgColor([16, 1, 18]);
 $imagen->setTextoPie("- Luis Felipe");
 $imagen->prepararImagen();
-$imagen->guardar('ruta');
+$imagen->guardar('./amigo.png');
